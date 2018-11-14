@@ -1,0 +1,5 @@
+.dropdown-menu > a:hover {
+  background-color: black;
+  background-image: none;
+  color: white;
+}

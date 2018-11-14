@@ -10,7 +10,10 @@ const appRoutes: Routes = [
   { path: 'home', component: HomeComponent, children: [] },
   { path: 'category', component: CategoryComponent },
   { path: 'post', component: PostComponent },
-  { path: 'user', component: UserComponent }
+  { path: 'user', component: UserComponent },
+  { path: 'profile', component: HomeComponent },
+  { path: 'setting', component: HomeComponent },
+  { path: 'logout', component: HomeComponent }
 ];
 
 @NgModule({
